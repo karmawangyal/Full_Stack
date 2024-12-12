@@ -1,0 +1,50 @@
+
+# Python virtual environments
+venv/
+env/
+virtualenv/
+
+# Deep Learning Model Files
+*.pth
+*.h5
+*.ckpt
+*.onnx
+model/
+
+# VSCode editor settings
+.vscode/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Log files
+*.log
+
+# Temporary, backup, and system files
+*.bak
+*.swp
+*.swo
+.swp
+.swo
+.DS_Store
+Thumbs.db
+
+# Environment files (sensitive data)
+.env
+.env.*
+
+# FastAPI specific
+*.db
+*.sqlite3
+*.test
+
+# IDE and other configuration files
+.idea/
+.project
+.settings/
+
+# Docker-related files
+Dockerfile.*
+.dockerignore
