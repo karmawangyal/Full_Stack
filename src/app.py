@@ -7,7 +7,7 @@ import torch
 import torchvision.transforms as transforms
 from PIL import Image, ImageDraw, ImageFont
 from fastapi.staticfiles import StaticFiles
-from helper import reverse_to_tensor, denormalize_bbox
+from .helper import reverse_to_tensor, denormalize_bbox
 import os
 
 # FastAPI app
