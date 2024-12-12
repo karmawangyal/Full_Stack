@@ -1,2 +1,4 @@
 cnn/
 .DS_Store
+src/best_model-3.pth
+src/__pycache__
